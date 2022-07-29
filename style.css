@@ -1,0 +1,217 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* reset css */
+
+body {
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+  color: #161515;
+  }
+
+
+.background {
+  margin: 0 auto;
+  
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 133px;
+  padding-right: 133px;
+  padding-top: 103px;
+  padding-bottom: 168px;
+  background-color: #F8F8F8;
+}
+
+.header-img {
+  width: 420px;
+  height: 720px;
+}
+
+.header-mor705 {
+  font-size: 24px;
+  line-height: 45px;
+  font-weight: 400;
+  margin-bottom: 53px;
+}
+
+.name {
+  margin-bottom: 43px;
+  font-size: 250px;
+  line-height: 230px;
+  font-weight: 400;
+  color: #272727;
+}
+
+.about {
+  margin-bottom: 61px;
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 400;
+  width: 575px;
+}
+
+.buy-wrapper {
+  display: flex;
+}
+
+.buy-link {
+  display: block;
+  width: 278px;
+  height: 82px;
+  background-color: #161515;
+  color: white;
+  text-decoration: none;
+  font-size: 32px;
+  line-height: 82px;
+  text-align: center;
+}
+
+.price {
+  display: block;
+  width: 143PX;
+  height: 82px;
+  background-color: #FFFFFF;
+  font-size: 32px;
+  line-height: 82px;
+  text-align: center;
+}
+
+/* header */
+
+.models-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 133px;
+  padding-right: 133px;
+  padding-bottom: 168px;
+}
+
+.popular {
+  display: block;
+  text-align: center;
+  padding-top: 46px;
+  font-size: 24px;
+  line-height: 45px;
+  font-weight: 300;
+}
+
+.models {
+  font-size: 72px;
+  line-height: 81px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 84px;
+}
+
+.watches {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F8F8F8;
+  width: 496px;
+  height: 630px;
+}
+
+
+.son22-img {
+  width: 286px;
+  height: 410px;
+}
+
+.models-name {
+  padding-top: 67px;
+  font-size: 32px;
+  line-height: 30px;
+  font-weight: 400;
+  padding-bottom: 17px;
+}
+
+.son22-about {
+  width: 531px;
+  height: 238px;
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 85px;
+}
+
+.sw12-img {
+  width: 500px;
+  height: 500px;
+}
+
+.Sw12-about {
+  width: 510px;
+  height: 148px;
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 107px;
+}
+
+.prod-descriprion {
+  display: block;
+  font-size: 32px;
+  font-weight: 400;
+  padding-bottom: 9px;
+}
+
+hr {
+  display: block;
+  width: 178px;
+  color: #707070;
+}
+
+.prod-about {
+  padding-top: 49px;
+  width: 515px;
+  height: 231px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.more-detailed {
+  color: #BB8B5D;
+  font-weight: 400;
+}
